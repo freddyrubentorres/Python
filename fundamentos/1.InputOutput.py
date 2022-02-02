@@ -1,0 +1,13 @@
+
+print('Formulario')
+print('Nombre : ',end='')
+nombre=input()
+print('Apellido : ',end='')
+apellido=input()
+print('Edad : ',end='')
+edad=input()
+ciudad=input('Ciudad : ')
+print('Nombre ingresado: ',nombre)
+print('Apellido ingresado: ',apellido)
+print('Edad ingresada: ',edad)
+print('Ciudad ingresada: ',ciudad)
