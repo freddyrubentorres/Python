@@ -4,7 +4,6 @@ Autor:Freddy Torres
 Fecha: 04-02-2022
 '''
 
-from operator import length_hint
 from os import system
 
 system("cls")
