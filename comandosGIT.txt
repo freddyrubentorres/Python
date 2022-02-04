@@ -1,0 +1,8 @@
+$ git --version
+$ git config --global user.name "Freddy Torres"
+$ git config --global user.email "freddyrt17@hotmail.com"
+$ ls
+$ git clone https://github.com/freddyrubentorres/Python.git
+$ git add .
+$ git commit -m "inicio"
+$ git push origin
