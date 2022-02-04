@@ -1,7 +1,7 @@
 '''
 Descipcion: Vaida si una cadena es palindromo
 Autor:Freddy Torres
-Fecha: 04-02_2022
+Fecha: 04-02-2022
 '''
 
 from operator import length_hint
@@ -23,7 +23,7 @@ caracteres = len(texto)
 def validaPalindromo(text):
     igual, aux = 0, 0
     for ind in reversed(range(0, len(text))):
-        if text[ind].lower() == text[aux].lower().strip():
+        if text[ind].lower() == text[aux].lower():
             igual += 1
             aux += 1
     if len(text) == igual:
